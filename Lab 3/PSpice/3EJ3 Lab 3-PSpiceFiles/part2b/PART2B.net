@@ -1,9 +1,0 @@
-* source 3EJ3 LAB 3
-V_V2         N03312 N03340 DC 0Vdc AC 0Vac 
-V_VCC         N03152 0 5V
-C_C2         N03312 VO  100T  TC=0,0 
-V_VEE         N03340 0 -5V
-Q_Q1         VIN VIN N03152 MY2N3906 
-R_RL         N03340 VO  10k TC=0,0 
-Q_Q2         VO VIN N03152 MY2N3906 
-I_IREF         VIN N03340 DC 91uAdc AC 1uAac 180
