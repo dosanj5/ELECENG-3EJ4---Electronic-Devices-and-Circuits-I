@@ -1,0 +1,7 @@
+* source 3EJ3 LAB 3
+R_RL         N01144 VO  10k TC=0,0 
+V_VEE         N01144 0 -5V
+V_VCC         N01364 0 5V
+I_IREF         VIN N01144 DC 1mAdc  
+Q_Q2         VO VIN N01364 MY2N3906 
+Q_Q1         VIN VIN N01364 MY2N3906 

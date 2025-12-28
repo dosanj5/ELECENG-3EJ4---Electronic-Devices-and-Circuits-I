@@ -1,0 +1,119 @@
+(ExpressProject "3EJ4 Lab 4"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "24.1 P001 (4234998)  [9/4/2024]-[11/08/25]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\3ej4 lab 4.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (RootChangedForceReNetlist "x"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\3ej4 lab 4-pspicefiles\schematic1\schematic1.net"
+      (Type "Report"))
+    (File ".\3ej4 lab 4-pspicefiles\part 1b\part 1b.net"
+      (Type "Report"))
+    (File ".\3ej4 lab 4-pspicefiles\part 2\part 2.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\3ej4 lab 4-pspicefiles\part 1a\step 1_2.sim"
+        (DisplayName "PART 1A-step 1_2")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\3ej4 lab 4-pspicefiles\part 1a\step1_3.sim"
+        (DisplayName "PART 1A-step1_3")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\3ej4 lab 4-pspicefiles\part 1b\step1_6.sim"
+        (DisplayName "PART 1B-step1_6")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\3ej4 lab 4-pspicefiles\part 1b\step1_7.sim"
+        (DisplayName "PART 1B-step1_7")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\3ej4 lab 4-pspicefiles\part 2\step2_3.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\3ej4 lab 4-pspicefiles\part 2\step2_3.sim"
+        (DisplayName "PART 2-step2_3")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File
+         "C:\Users\dosanj5\OneDrive - McMaster University\School Files\2025 - 2026\ELEC 3EJ4\Model Parts\Op-Amp TLV2371.LIB"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "C:\Users\dosanj5\OneDrive - McMaster University\School Files\2025 - 2026\ELEC 3EJ4\Model Parts\Op-Amp TLV2371.LIB")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (MPSSessionName "dosanj5")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\dosanj5\OneDrive - McMaster University\School Files\2025 - 2026\ELEC 3EJ4\Lab 4\Pspice\3ej4 lab 4.dsn")
+      (Path "Design Resources"
+         "C:\Users\dosanj5\OneDrive - McMaster University\School Files\2025 - 2026\ELEC 3EJ4\Lab 4\Pspice\3ej4 lab 4.dsn"
+         "PART 2")
+      (Path "Design Resources"
+         "C:\Users\dosanj5\OneDrive - McMaster University\School Files\2025 - 2026\ELEC 3EJ4\Lab 4\Pspice\3ej4 lab 4.dsn"
+         "PART 1A")
+      (Path "Design Resources"
+         "C:\Users\dosanj5\OneDrive - McMaster University\School Files\2025 - 2026\ELEC 3EJ4\Lab 4\Pspice\3ej4 lab 4.dsn"
+         "PART 1B")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "Design Resources"
+         "C:\Users\dosanj5\OneDrive - McMaster University\School Files\2025 - 2026\ELEC 3EJ4\Lab 4\Pspice\3ej4 lab 4.dsn"
+         "PART 2" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 678"))
+      (Tab 0)))
+  (PartMRUSelector
+    (TLV2371
+      (FullPartName "TLV2371.Normal")
+      (LibraryName
+         "C:\USERS\DOSANJ5\ONEDRIVE - MCMASTER UNIVERSITY\SCHOOL FILES\2025 - 2026\ELEC 3EJ4\MODEL PARTS\OP-AMP TLV2371.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VSIN
+      (FullPartName "VSIN.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\TCLSCRIPTS\CAPPSPICESOURCEAPP\HYBRID\SUPPORTFILES\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Users\dosanj5\OneDrive - McMaster University\School Files\2025 - 2026\ELEC 3EJ4\Model Parts"))

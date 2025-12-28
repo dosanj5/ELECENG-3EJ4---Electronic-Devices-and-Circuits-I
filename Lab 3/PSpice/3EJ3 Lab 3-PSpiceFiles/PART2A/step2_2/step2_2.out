@@ -1,0 +1,122 @@
+
+**** 10/11/25 15:46:08 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "PART2A-step2_2"  [ C:\Users\dosanj5\OneDrive - McMaster University\School Files\2025 - 2026\ELEC 3EJ4\Lab 3\Pspice\3EJ3
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "step2_2.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\dosanj5\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "C:\Users\dosanj5\OneDrive - McMaster University\School Files\2025 - 2026\ELEC 3EJ4\Model Parts\My2N3906.LIB" 
+.lib "C:\Users\dosanj5\OneDrive - McMaster University\School Files\2025 - 2026\ELEC 3EJ4\Model Parts\My2N3904.LIB" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN I_IREF 0.1mA 1mA 0.01mA 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\PART2A.net" 
+
+
+
+**** INCLUDING PART2A.net ****
+* source 3EJ3 LAB 3
+R_RL         N01144 VO  10k TC=0,0 
+V_VEE         N01144 0 -5V
+V_VCC         N01364 0 5V
+I_IREF         VIN N01144 DC 1mAdc  
+Q_Q2         VO VIN N01364 MY2N3906 
+Q_Q1         VIN VIN N01364 MY2N3906 
+
+**** RESUMING step2_2.cir ****
+.END
+
+**** 10/11/25 15:46:08 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "PART2A-step2_2"  [ C:\Users\dosanj5\OneDrive - McMaster University\School Files\2025 - 2026\ELEC 3EJ4\Lab 3\Pspice\3EJ3
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               MY2N3906        
+               PNP             
+       LEVEL    1            
+          IS    7.755210E-12 
+          EG    1.05         
+          BF  194.093        
+          NF    1.35509      
+         VAF  156.436        
+         IKF     .066006     
+         ISE    1.885460E-12 
+          NE    1.81673      
+          BR    3.41317      
+          NR    1.5          
+         VAR    5.86061      
+         IKR    1.70599      
+         ISC  764.281000E-12 
+          NC    1.92376      
+         ISS    0            
+          RB    6.48961      
+         RBM     .1          
+         IRB     .1          
+          RE  100.000000E-06 
+          RC    2.45044      
+         CJE    6.119280E-12 
+         VJE     .4          
+         MJE     .248812     
+         CJC    6.850070E-12 
+         VJC     .4          
+         MJC     .279018     
+        XCJC     .9          
+         CJS    0            
+         VJS     .75         
+         MJS     .5          
+          FC     .478887     
+          TF  521.843000E-12 
+         XTF     .932702     
+         VTF    9.1046       
+         ITF     .010647     
+          TR  430.605000E-09 
+         XTB     .1          
+         XTI    1            
+          KF    0            
+          AF    1            
+          CN    2.2          
+           D     .52         
+
+
+
+          JOB CONCLUDED
+
+**** 10/11/25 15:46:08 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "PART2A-step2_2"  [ C:\Users\dosanj5\OneDrive - McMaster University\School Files\2025 - 2026\ELEC 3EJ4\Lab 3\Pspice\3EJ3
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .09
+

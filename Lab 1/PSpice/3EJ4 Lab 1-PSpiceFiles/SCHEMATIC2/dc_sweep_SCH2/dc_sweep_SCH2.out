@@ -1,0 +1,121 @@
+
+**** 09/18/25 12:00:58 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC2-dc_sweep_SCH2"  [ C:\Users\dosanj5\OneDrive - McMaster University\School Files\2025 - 2026\ELEC 3EJ4\Lab 1\P
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "dc_sweep_SCH2.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\dosanj5\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "C:\Users\dosanj5\OneDrive - McMaster University\School Files\2025 - 2026\ELEC 3EJ4\Model Parts\My2N3906.LIB" 
+.lib "C:\Users\dosanj5\OneDrive - McMaster University\School Files\2025 - 2026\ELEC 3EJ4\Model Parts\My2N3904.LIB" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN V_VCC -5V -0.5V 0.5V 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC2.net" 
+
+
+
+**** INCLUDING SCHEMATIC2.net ****
+* source 3EJ4 LAB 1
+R_R1         0 N00507  100k TC=0,0 
+Q_Q1         N00413 N00507 N01258 MY2N3906 
+R_R2         N01138 N00413  100 TC=0,0 
+V_VCC         N01138 0 -5Vdc
+V_VE         N01258 0 5Vdc
+
+**** RESUMING dc_sweep_SCH2.cir ****
+.END
+
+**** 09/18/25 12:00:58 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC2-dc_sweep_SCH2"  [ C:\Users\dosanj5\OneDrive - McMaster University\School Files\2025 - 2026\ELEC 3EJ4\Lab 1\P
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               MY2N3906        
+               PNP             
+       LEVEL    1            
+          IS    7.755210E-12 
+          EG    1.05         
+          BF  194.093        
+          NF    1.35509      
+         VAF  156.436        
+         IKF     .066006     
+         ISE    1.885460E-12 
+          NE    1.81673      
+          BR    3.41317      
+          NR    1.5          
+         VAR    5.86061      
+         IKR    1.70599      
+         ISC  764.281000E-12 
+          NC    1.92376      
+         ISS    0            
+          RB    6.48961      
+         RBM     .1          
+         IRB     .1          
+          RE  100.000000E-06 
+          RC    2.45044      
+         CJE    6.119280E-12 
+         VJE     .4          
+         MJE     .248812     
+         CJC    6.850070E-12 
+         VJC     .4          
+         MJC     .279018     
+        XCJC     .9          
+         CJS    0            
+         VJS     .75         
+         MJS     .5          
+          FC     .478887     
+          TF  521.843000E-12 
+         XTF     .932702     
+         VTF    9.1046       
+         ITF     .010647     
+          TR  430.605000E-09 
+         XTB     .1          
+         XTI    1            
+          KF    0            
+          AF    1            
+          CN    2.2          
+           D     .52         
+
+
+
+          JOB CONCLUDED
+
+**** 09/18/25 12:00:58 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC2-dc_sweep_SCH2"  [ C:\Users\dosanj5\OneDrive - McMaster University\School Files\2025 - 2026\ELEC 3EJ4\Lab 1\P
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .02
+

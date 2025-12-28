@@ -1,0 +1,6 @@
+* source 3EJ4 LAB 1
+V_VCC         N00166 0 5Vdc
+V_VE         N00204 0 -5Vdc
+R_R1         0 N00213  100k TC=0,0 
+R_R2         N00292 N00166  100 TC=0,0 
+Q_Q1         N00292 N00213 N00204 MY2N3904 
