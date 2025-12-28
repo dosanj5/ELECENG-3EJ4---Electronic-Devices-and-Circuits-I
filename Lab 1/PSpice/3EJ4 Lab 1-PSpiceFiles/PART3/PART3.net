@@ -1,7 +1,0 @@
-* source 3EJ4 LAB 1
-R_R2         N00785 N00652  100k TC=0,0 
-R_R3         N00785 N00781  3.669k TC=0,0 
-V_VCC         N00397 0 -5Vdc
-V_VEE         N00785 0 -5Vdc
-R_R1         N00652 0  13.12k TC=0,0 
-Q_Q1         N00397 N00652 N00781 MY2N3904 
